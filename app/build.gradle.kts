@@ -72,4 +72,11 @@ dependencies {
     //retrofit
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
+
+    //datastore
+    implementation(libs.datastore)
+
+    //compose testing
+    androidTestImplementation(libs.compose.ui)
+    androidTestImplementation(libs.compose.ui.manifest)
 }

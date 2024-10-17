@@ -1,4 +1,4 @@
-package com.jpmc.weatherapp.view
+package com.jpmc.weatherapp
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -17,6 +17,7 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.ui.Modifier
 import com.jpmc.weatherapp.ui.theme.WeatherAppTheme
 import com.jpmc.weatherapp.ui.theme.white
+import com.jpmc.weatherapp.view.WeatherScreen
 import com.jpmc.weatherapp.viewmodel.WeatherViewModel
 
 class WeatherMainActivity : ComponentActivity() {

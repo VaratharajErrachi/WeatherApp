@@ -1,6 +1,5 @@
 package com.jpmc.weatherapp.view
 
-import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,19 +21,21 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.transform.CircleCropTransformation
-import com.jpmc.weatherapp.webservices.ApiConfig
+import com.jpmc.weatherapp.util.ApiConfig
 
 @Composable
 fun WeatherCard(weather: WeatherData) {
     val imageUrl = ApiConfig.ICON_URL + weather.weather.firstOrNull()?.icon + "@2x.png"
-    Log.d("1234", imageUrl)
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(8.dp),
+            .padding(8.dp)
+            .testTag("WeatherCard"),
         shape = RoundedCornerShape(12.dp),
         elevation = CardDefaults.cardElevation(6.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)

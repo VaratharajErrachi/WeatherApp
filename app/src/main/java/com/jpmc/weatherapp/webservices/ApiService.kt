@@ -1,6 +1,7 @@
 package com.jpmc.weatherapp.webservices
 
 import com.jpmc.weatherapp.model.WeatherData
+import com.jpmc.weatherapp.util.ApiConfig
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -8,7 +9,8 @@ import retrofit2.http.Query
 
 interface ApiService {
     @GET(ApiConfig.WEATHER_URL)
-    suspend fun getWeatherDetails(@Query(ApiConfig.QUERY_CITY_NAME) cityName: String, @Query(ApiConfig.QUERY_APP_ID) appId: String): WeatherData
+    suspend fun getWeatherDetails(@Query(ApiConfig.QUERY_CITY_NAME) cityName: String, @Query(
+        ApiConfig.QUERY_APP_ID) appId: String): WeatherData
 }
 
 object RetrofitClient {

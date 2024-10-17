@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.jpmc.weatherapp.model.Resource
 import com.jpmc.weatherapp.model.WeatherData
-import com.jpmc.weatherapp.webservices.WeatherRepository
+import com.jpmc.weatherapp.repository.WeatherRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.jpmc.weatherapp.webservices
+package com.jpmc.weatherapp.util
 
 object ApiConfig {
     const val BASE_URL = "https://api.openweathermap.org/"

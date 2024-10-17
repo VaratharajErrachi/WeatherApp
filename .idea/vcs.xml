@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../20230314VaratharajErrachiNYCSchools" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../Sample Projects/NYCSchools/20230314VaratharajErrachiNYCSchools" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../WSE Android/DC_Zoom_App/digital-classroom-android" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../WSE Android/NSE_App/android_native_container" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../WSE Android/NSE_App/android_native_iap" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../WSE Android/NSE_App/android_native_learn_english" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../WSE Android/NSE_App/wse-dsw-android" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../WSE Android/NSE_App/wse-dsw-player-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
